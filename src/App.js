@@ -1,12 +1,15 @@
+import Tilty from 'react-tilty';
 import Question from './Question/Question';
 import styles from './App.module.scss';
 
 function App() {
   return (
     <div>
-      <header>
-        <h1>FAQ</h1>
-      </header>
+      <Tilty>
+        <header>
+          <h1>FAQ</h1>
+        </header>
+      </Tilty>
       <main>
         <section className={styles.faqSection}>
           <h2>Frequently asked questions</h2>
