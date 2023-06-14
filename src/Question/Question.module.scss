@@ -1,0 +1,40 @@
+@use '../commonStyles/colors.scss';
+
+.wholeQuestionComponent {
+    background-color: black;
+    margin: 10px calc(10px + 3vw);
+    text-align: left;
+    padding: 10px;
+}
+
+.titleDiv {
+    color: colors.$blue;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleDiv h3 {
+    margin: 5px auto;
+    flex: 1 1 80%;
+}
+
+.titleDiv button {
+    flex: 1 1 20%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: colors.$white;
+    border: 2px solid colors.$blue;
+    border-radius: 2px;
+}
+
+.infoDiv {
+    margin: auto;
+    color: colors.$white;
+}
+
+.infoDiv p {
+    color: colors.$white;
+    font-size: 1.1rem;
+    margin: 5px auto;
+}

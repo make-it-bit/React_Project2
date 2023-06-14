@@ -1,0 +1,24 @@
+@use './commonStyles/colors.scss';
+
+header {
+    font-size: 3rem;
+    color: colors.$blue;
+}
+
+header h1{
+    margin: calc(3vh + 20px) auto;
+}
+
+.faqSection {
+    background-color: colors.$black;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-top: 1px;
+}
+
+.faqSection h2{
+    margin-top: 10px;
+    font-size: 2rem;
+    color: colors.$white;
+}
